@@ -353,12 +353,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
             ### OpenWrt Image information
-            - Default IP: 192.168.1.1
-            - Default username: root
-            - Default password: password
-            - Default WIFI name: OpenWrt
-            - Default WIFI password: none
+            - 默认IP: 192.168.1.1
+            - 用户名: root
+            - 密码: password
+            - WiFi名称: OpenWrt
+            - WiFi密码: none
             ### Install to EMMC
-            - Login to OpenWrt → System → Amlogic Service → Install OpenWrt
+            - 登录OpenWrt →系统 → 晶晨宝盒 → 安装OpenWrt
             ### OpenWrt Image Verification
             - sha256sum
