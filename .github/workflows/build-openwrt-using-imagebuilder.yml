@@ -233,7 +233,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - bx
 
 env:
   TZ: America/New_York
