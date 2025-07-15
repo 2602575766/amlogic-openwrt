@@ -352,13 +352,13 @@ jobs:
           replacesArtifacts: true
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
-            ### OpenWrt Image information
+             ### OpenWrt镜像信息
             - 默认IP: 192.168.1.1
             - 用户名: root
             - 密码: password
             - WiFi名称: OpenWrt
             - WiFi密码: none
-            ### Install to EMMC
+            ### 安装OpenWrt到EMMC
             - 登录OpenWrt →系统 → 晶晨宝盒 → 安装OpenWrt
             ### OpenWrt Image Verification
             - sha256sum
